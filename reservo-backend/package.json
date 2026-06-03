@@ -26,5 +26,8 @@
     "pg-hstore": "^2.3.4",
     "redis": "^6.0.0",
     "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
