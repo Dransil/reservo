@@ -7,4 +7,8 @@ router.use('/bookings', require('./booking.routes'))
 router.use('/payments', require('./payment.routes'))
 router.use('/users', require('./user.routes'))
 
+router.get('/health', (req, res) => {
+  res.json({ status: 'ok', timestamp: new Date() })
+})
+
 module.exports = router
