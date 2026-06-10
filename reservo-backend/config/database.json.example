@@ -1,0 +1,15 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "tu_contra",
+    "database": "reservo_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "timezone": "-04:00"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres",
+    "timezone": "-04:00"
+  }
+}
